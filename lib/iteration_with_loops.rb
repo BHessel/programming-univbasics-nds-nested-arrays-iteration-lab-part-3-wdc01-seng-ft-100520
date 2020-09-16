@@ -6,7 +6,7 @@ def join_nested_strings(src)
     element_id = 0
     while element_id < src[array_count].count do
       if src[array_count][element_id].class == String
-        element_id << string_array
+        src[array_count][element_id] << string_array
       # Then I shovel the element into the new array (string_array)
     end
     element_id += 1 
