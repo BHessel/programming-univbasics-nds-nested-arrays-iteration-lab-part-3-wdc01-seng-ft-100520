@@ -16,6 +16,7 @@ def join_nested_strings(src)
   #and here I progress to the next array 
 end
   string_array.join(' ')
+  string_array
   #this failed
   #here I want to take the array of strings and format it as one string 
 end
