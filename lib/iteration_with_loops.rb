@@ -4,6 +4,7 @@ def join_nested_strings(src)
   #is this right? Or should it be empty quotes?
   while array_count < src.count do
     element_id = 0
+    
     while element_id < src[array_count].count do
       if element_id.class == String
         element_id << string_array
